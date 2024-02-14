@@ -23,24 +23,24 @@ $( document ).ready(function() {
 
         switch(beast){
             case 0:
-                $("#beastTitle").text(name + "'s beast is the phoenix!");
+                $("#beastTitle").text(name + "'s beast is the Phoenix!");
                 $("#beastDesc").text(phoenixDesc);
                 break;
             case 1:
-                $("#beastTitle").text(name + "'s beast is the minotaur!");
+                $("#beastTitle").text(name + "'s beast is the Minotaur!");
                 $("#beastDesc").text(minotaurDesc);
                 break;
             case 2:
                 //cycle start point for single letter
-                $("#beastTitle").text(name + "'s beast is the kraken!");
+                $("#beastTitle").text(name + "'s beast is the Kraken!");
                 $("#beastDesc").text(krakenDesc);
                 break;
             case 3:
-                $("#beastTitle").text(name + "'s beast is cerberus!");
+                $("#beastTitle").text(name + "'s beast is Cerberus!");
                 $("#beastDesc").text(cerberusDesc);
                 break;
             case 4:
-                $("#beastTitle").text(name + "'s beast is the unicorn!");
+                $("#beastTitle").text(name + "'s beast is the Unicorn!");
                 $("#beastDesc").text(unicornDesc);
                 break;
             default:
